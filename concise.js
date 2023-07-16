@@ -4,7 +4,7 @@ function finds(array, element) {
 
 function pata(array, element) {
   let el = array.find((elem) => elem === element);
-  if (el > 0) {
+  if (el >= 0) {
     return array.indexOf(el);
   }
   return "Not found";
